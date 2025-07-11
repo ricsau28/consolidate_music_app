@@ -1,9 +1,0 @@
-Scan: sftp://ricsau@lmde5:/mnt/music_bkup/Backups, sftp://ricsau@lmde5:/mnt/music_bkup/Richard - 
-Save to: /media/ricsau/MUSIC/Richard
-
-The script reported "Invalid SFTP URL: sftp://ricsau@lmde5/mnt/music_bkup/Backups". This is because the SFTP URL parser expects a colon before the path (e.g., sftp://user@host:/path).
-
-To fix this, please use the format:  
-sftp://ricsau@lmde5:/mnt/music_bkup/Backups
-
-Would you like to try again with the corrected URL format, or should I make the parser more flexible to accept both formats?

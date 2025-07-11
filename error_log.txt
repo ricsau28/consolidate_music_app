@@ -1,2 +1,0 @@
-Error processing /media/ricsau/9E5224D95224B7C3/Users/ricsau/Music/Sam Cooke/14 Love Will Find A Way.mp3: can't sync to MPEG frame
-Error processing /media/ricsau/9E5224D95224B7C3/Users/ricsau/Music/Sam Cooke/14 Love Will Find A Way.mp3: can't sync to MPEG frame
