@@ -1,0 +1,26 @@
+// ==============================================================================
+// Consolidate Music Project
+// Stores music files at a central location
+// 7/10/2026
+// RAS
+// ==============================================================================
+
+1. Establish a base directory to save files to: {base_save_directory} 
+ 1a. Prompt the user for the name of the base_save_directory
+ 1b. The default base_save_directory is: /media/ricsau/MUSIC/Richard
+2. Prompt the user for directory/directories to scan for music files
+ 2a. The directories to scan can be local and/or remote.
+ 2b. Use sftp to access remote directories.
+3. For each music file, get pertinent info, i.e., artist, album, title, etc.
+4. Save each music file to new location - the new location should be in the form of:
+     {base_save_directory}/{artist}/{music_filename_only}
+4a. For now, don't actually save the file, just print out an informational messge such as:
+   "Dry run -- moving {song_filename} to {new_location_name}
+
+Example:
+ Assume the remote server name is "lmde5", then the file
+   lmde5/mnt/music_bkup/iTunes_Windows_7/iTunes Media/Music/Aaliyah/Age Ain't Nothing but a Number.m4p
+ will be saved as /media/ricsau/MUSIC/Richard/Aaliyah/Age Ain't Nothing but a Number.m4p,
+ assuming the base_save_directory is /media/ricsau/MUSIC/Richard.
+
+
