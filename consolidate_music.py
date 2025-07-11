@@ -169,7 +169,8 @@ def main():
     sftp_clients = {}
     error_log_path = "error_log.txt"
     processed = 0
-    max_files = 500
+    max_files = 5
+
     # Check that no scan directory is the same as the base save directory
     for d in scan_dirs:
         scan_path = d
